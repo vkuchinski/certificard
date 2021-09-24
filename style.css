@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Yantramanav:wght@400;700&display=swap");
+
+body {
+  background: linear-gradient(36.85deg, #b0ddff 17.26%, #ffb0b0 96.03%);
+  font-family: "Yantramanav", sans-serif;
+}
+
+.container {
+  background: #ecf4ff;
+  box-shadow: 10px 10px 10px #1C1C1C;
+  border-radius: 10px;
+  margin: 40px;
+  color: #1c1c1c;
+  padding: 20px;
+}
+
+.cabecalho {
+  justify-content: space-between;
+  display: flex;
+}
+
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 460px;
+  max-height: 150px;
+}
+
+.titulo {
+  margin-left: 10px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 8px 16px;
+  background: #ECF4FF;
+  border: 2px dashed #0E1D2F;
+  box-sizing: border-box;
+  border-radius: 100px;
+}
+
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+main {
+  background: linear-gradient(36.85deg, #F7F7F7 17.26%, #ab2e2e 96.03%);
+  font-family: "Yantramanav", sans-serif;
+  box-shadow: 3px 3px 3px #1C1C1C;
+  border-radius: 10px;
+  color: #1c1c1c;
+  padding: 20px;
+  font-weight: 400;
+  font-size: 24px;
+  font-family: "Yantramanav", sans-serif;
+  margin-top: 40px;
+}
+
+.projetos-titulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.projetos-lista {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 24px;
+  margin: 5px;
+  line-height: 36px;
+  text-decoration: none;
+}
+
+.projetos-lista a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
+
+
+
+
+.dark {
+  background: linear-gradient(36.85deg, #42525e 17.26%, #5e4242 96.03%);
+}
+
+.dark .container{
+  background: #333439;
+  box-shadow: 6px 6px 6px #1C1C1C;
+  border-radius: 20px;
+  color: #F7F7F7;
+}
+
+.dark .projetos{
+  color: #1c1c1c;
+}
+
+.dark .tema button{
+  background: #1C1C1C;
+  border: 2px dashed #F7F7F7;
+  box-sizing: border-box;
+  border-radius: 100px;
+  font-size: 24px;
+  font-weight: 400;
+  color: #F7F7F7;
+}
